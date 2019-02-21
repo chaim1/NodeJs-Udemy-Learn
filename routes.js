@@ -27,7 +27,7 @@ const requestHandler = (req, res) => {
             });
         });
     }
-    res.setHeader('Comtent-Type', 'text/html');
+    res.setHeader('Comtent-Type', 'json');
     res.write('<html>');
     res.write('<head><title>My first page</title></head>');
     res.write('<body><h1>Hello from my Node.js Server</h1></body>');
