@@ -1,6 +1,7 @@
 const fs = require('fs');
 // fs.appendFileSync('hello.txt', 'hello from node.fs');
 
+
 const requestHandler = (req, res) => {
     const url = req.url;
     const method = req.method;
